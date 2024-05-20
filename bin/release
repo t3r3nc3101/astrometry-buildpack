@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 echo "default_process_types:
-  web: node index.js" > $1/Procfile
+  web: ./build_astrometry.sh && node index.js
 exit 0
