@@ -5,7 +5,7 @@ echo "Compiling Astrometry Buildpack"
 # Download and extract precompiled binaries or perform setup
 mkdir -p $BUILD_DIR/astrometry
 cd $BUILD_DIR/astrometry
-wget http://example.com/astrometry.tar.gz
+wget http://astrometry.net/downloads/astrometry.net-latest.tar.gz
 tar -xzf astrometry.tar.gz
 rm astrometry.tar.gz
 exit 0
