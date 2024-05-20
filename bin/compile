@@ -6,6 +6,6 @@ echo "Compiling Astrometry Buildpack"
 mkdir -p $BUILD_DIR/astrometry
 cd $BUILD_DIR/astrometry
 wget http://astrometry.net/downloads/astrometry.net-latest.tar.gz
-tar -xzf astrometry.tar.gz
-rm astrometry.tar.gz
+tar -xzf astrometry.net-latest.tar.gz
+rm astrometry.net-latest.tar.gz
 exit 0
