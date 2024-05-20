@@ -1,2 +1,4 @@
-#!/bin/sh
-echo "Astrometry.net Buildpack"
+#!/usr/bin/env bash
+echo "default_process_types:
+  web: node server.js" > $1/Procfile
+exit 0
