@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 echo "default_process_types:
-  web: node index.js" > $1/Procfile
+  web: node server.js" > $1/Procfile
 exit 0
