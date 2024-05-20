@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+BUILD_DIR=$1
+CACHE_DIR=$2
+echo "Compiling Astrometry Buildpack"
+# Download and extract precompiled binaries or perform setup
+mkdir -p $BUILD_DIR/astrometry
+cd $BUILD_DIR/astrometry
+wget http://example.com/astrometry.tar.gz
+tar -xzf astrometry.tar.gz
+rm astrometry.tar.gz
+exit 0

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+echo "Astrometry Buildpack"
+exit 0
